@@ -30,7 +30,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
     private boolean showRemoveWatchlistOption;
     private boolean showRemoveWatchHistoryOption;
 
-    // Constructor
+    // Constructor (Initializes the adapter with context, movie list, options listener, and option flags)
     public MoviesAdapter(Context context, List<Movie> moviesList, MovieOptionsListener listener,
                          boolean showRemoveFavouriteOption, boolean showRemoveWatchlistOption,
                          boolean showRemoveWatchHistoryOption) {
@@ -111,6 +111,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
         });
     }
 
+    // Returns the size of the movie list
     @Override
     public int getItemCount() {
         return moviesList.size();
