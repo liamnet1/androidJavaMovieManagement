@@ -7,6 +7,8 @@ import retrofit2.http.GET;
 import retrofit2.http.Header;
 import retrofit2.http.Query;
 
+// defines the API endpoints
+//Retrofit Annotations: defining api endpoints and request parameters
 public interface TMDbApi {
     @GET("search/movie")
     Call<MovieResponse> searchMovies(

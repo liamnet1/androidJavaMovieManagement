@@ -1,6 +1,7 @@
 package com.example.LMDb.models;
 import com.google.gson.annotations.SerializedName;
 
+// Gson Annotations: JSON serialization and deserialization
 public class Movie {
     @SerializedName("id")
     private int id;

@@ -7,6 +7,7 @@ import okhttp3.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+// Network client class for making api calls
 public class ApiClient {
 
     private static final String BASE_URL = "https://api.themoviedb.org/3/"; // url to access the api
@@ -14,8 +15,10 @@ public class ApiClient {
 
     private static Retrofit retrofit = null;
 
+    // Retrofit: For making network requests
     public static Retrofit getClient() {
         if (retrofit == null) {
+            // OkHttp: For HTTP client functionality
             OkHttpClient client = new OkHttpClient.Builder().build();
 
             retrofit = new Retrofit.Builder()
