@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "930435972823",
+    "project_id": "school-project-9ac2f",
+    "storage_bucket": "school-project-9ac2f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930435972823:android:8815cd9890166eb3263a92",
+        "android_client_info": {
+          "package_name": "com.example.LMDb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVLq-bhLfetmqnlCF2eaGjAStzqreBW8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930435972823:android:c3f0aa52a2b1b869263a92",
+        "android_client_info": {
+          "package_name": "com.example.firebasetesting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVLq-bhLfetmqnlCF2eaGjAStzqreBW8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930435972823:android:4e7f681afe1b4fb9263a92",
+        "android_client_info": {
+          "package_name": "com.example.movie_recommendation_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVLq-bhLfetmqnlCF2eaGjAStzqreBW8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main"
+        android:title="Main"
+        android:icon="@drawable/ic_main_page_logo"/>
+    <item
+        android:id="@+id/home"
+        android:title="Home Page"
+        android:icon="@drawable/ic_home_page_logo"/>
+    <item
+        android:id="@+id/moviesYouLiked"
+        android:title="Your Favourite Movies"
+        android:icon="@drawable/ic_liked_movies_logo"/>
+    <item
+        android:id="@+id/watchListMovies"
+        android:title="Your Watch List"
+        android:icon="@drawable/ic_watch_list_logo"/>
+    <item
+        android:id="@+id/moviesYouWatched"
+        android:title="Your Wacthed Movies"
+        android:icon="@drawable/ic_watched_movies_logo"/>
+    <item
+        android:id="@+id/upcomingMovies"
+        android:title="Upcoming Movies"
+        android:icon="@drawable/ic_upcoming_movies_logo"/>
+    <item
+        android:id="@+id/userDetails"
+        android:title="User Details"
+        android:icon="@drawable/ic_user_details_page_logo"/>
+    <item
+        android:id="@+id/logOut"
+        android:title="Log Out"
+        android:icon="@drawable/ic_logout_logo"/>
+</menu>

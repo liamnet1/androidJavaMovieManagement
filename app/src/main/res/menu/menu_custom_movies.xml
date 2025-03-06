@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_likedMovies"
+        android:icon="@drawable/ic_liked_movies_logo"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/navigation_watchlist"
+        android:icon="@drawable/ic_watch_list_logo"
+        android:title="Watchlist" />
+    <item
+        android:id="@+id/navigation_watchedMovies"
+        android:icon="@drawable/ic_watched_movies_logo"
+        android:title="Watched Movies" />
+    <item
+        android:id="@+id/navigation_upcomingMovies"
+        android:icon="@drawable/ic_upcoming_movies_logo"
+        android:title="Upcoming"/>
+</menu>

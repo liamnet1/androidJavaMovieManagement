@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Slide-up animation: duration 1000ms, starts 50% below its final position and ends at the original position -->
+    <translate
+        android:duration="1000"
+        android:fromYDelta="75%p"
+        android:toYDelta="0" />
+</set>

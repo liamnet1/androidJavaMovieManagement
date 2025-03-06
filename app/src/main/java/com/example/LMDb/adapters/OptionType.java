@@ -1,0 +1,10 @@
+package com.example.LMDb.adapters;
+
+public enum OptionType {
+    FAVOURITE_AND_HISTORY,
+    HISTORY_ONLY,
+    WATCHLIST,
+    REMOVE_FROM_FAVOURITES,
+    REMOVE_FROM_WATCHLIST,
+    REMOVE_FROM_WATCH_HISTORY
+}

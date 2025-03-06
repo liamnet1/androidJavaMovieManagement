@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LMDb</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="banner_image">Sign in banner</string>
+    <string name="sign_in_banner">Sign in banner</string>
+    <string name="sign_up_banner">Sign up banner</string>
+    <string name="profile_picture">Profile Picture</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

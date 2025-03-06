@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_fav_and_history"
+        android:title="Mark As Favourite"
+        android:icon="@drawable/ic_liked_movies_logo"/>
+    <item
+        android:id="@+id/action_watchlist"
+        android:title="Add to Watchlist"
+        android:icon="@drawable/ic_watch_list_logo"/>
+    <item
+        android:id="@+id/action_history_only"
+        android:title="Add To Watch History"
+        android:icon="@drawable/ic_watched_movies_logo"/>
+    <item
+        android:id="@+id/action_remove_from_favourites"
+        android:title="Remove From Favourites"
+        android:icon="@drawable/ic_remove_logo"/>
+    <item
+        android:id="@+id/action_remove_from_watchlist"
+        android:title="Remove From Watchlist"
+        android:icon="@drawable/ic_remove_logo"/>
+    <item
+        android:id="@+id/action_remove_from_watch_history"
+        android:title="Remove From Watch History"
+        android:icon="@drawable/ic_remove_logo"/>
+</menu>
