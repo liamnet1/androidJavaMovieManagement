@@ -81,6 +81,7 @@ public class YourCustomMoviesActivity extends AppCompatActivity {
             } else if (id == R.id.logOut) {
                 FirebaseAuth.getInstance().signOut();
                 Toast.makeText(this, "Logged out successfully", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, HomeActivity.class));
                 recreate();
             }
             drawerLayout.closeDrawer(GravityCompat.START);

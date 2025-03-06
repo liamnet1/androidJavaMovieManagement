@@ -141,7 +141,7 @@ public class UserDetailsActivity extends AppCompatActivity implements View.OnCli
             } else if (id == R.id.logOut) {
                 FirebaseAuth.getInstance().signOut();
                 Toast.makeText(UserDetailsActivity.this, "Logged out successfully", Toast.LENGTH_SHORT).show();
-                // refresh the activity to update the menu
+                startActivity(new Intent(UserDetailsActivity.this, HomeActivity.class));
                 recreate();
             }
             drawerLayout.closeDrawer(GravityCompat.START);
