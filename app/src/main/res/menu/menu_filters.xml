@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter_movies"
+        android:icon="@drawable/ic_filter_logo"
+        android:title="Filter"
+        app:showAsAction="always" />
+    <!-- Genre Filters -->
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/filter_action" android:title="Action"/>
+        <item android:id="@+id/filter_drama" android:title="Drama"/>
+        <item android:id="@+id/filter_comedy" android:title="Comedy"/>
+        <item android:id="@+id/filter_horror" android:title="Horror"/>
+        <item android:id="@+id/filter_sci_fi" android:title="Sci-Fi"/>
+        <item android:id="@+id/filter_thriller" android:title="Thriller"/>
+    </group>
+
+    <!-- Sort By Filters -->
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/filter_popularity" android:title="Popularity"/>
+        <item android:id="@+id/filter_release_date" android:title="Release Date"/>
+        <item android:id="@+id/filter_vote_average" android:title="Vote Average"/>
+    </group>
+
+    <!-- Other Filters -->
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/filter_upcoming" android:title="Upcoming"/>
+    </group>
+
+    <!-- Age Filters -->
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/filter_18_plus" android:title="18+"/>
+        <item android:id="@+id/filter_14_plus" android:title="14+"/>
+        <item android:id="@+id/filter_rated_r" android:title="Rated R"/>
+        <item android:id="@+id/filter_adults_only" android:title="Adults Only"/>
+        <item android:id="@+id/filter_7_plus" android:title="7+"/>
+    </group>
+</menu>

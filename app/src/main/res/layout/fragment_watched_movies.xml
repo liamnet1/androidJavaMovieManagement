@@ -27,6 +27,15 @@
             android:padding="8dp"
             android:background="@drawable/edit_text_bg" />
 
+        <ImageButton
+            android:id="@+id/btnFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_filter_logo"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@android:color/white"
+            android:contentDescription="Filter"/>
+
         <Button
             android:id="@+id/btnSearch"
             android:layout_width="wrap_content"

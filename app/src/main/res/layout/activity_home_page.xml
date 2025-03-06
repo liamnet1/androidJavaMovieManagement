@@ -41,7 +41,7 @@
             <!-- Speech Button -->
             <Button
                 android:id="@+id/btnSpeak"
-                android:layout_width="wrap_content"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_mic" />
@@ -54,6 +54,15 @@
                 android:hint="Search movies..."
                 android:padding="8dp"
                 android:background="@drawable/edit_text_bg" />
+
+            <ImageButton
+                android:id="@+id/btnFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_filter_logo"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@android:color/white"
+                android:contentDescription="Filter"/>
 
             <Button
                 android:id="@+id/btnSearch"

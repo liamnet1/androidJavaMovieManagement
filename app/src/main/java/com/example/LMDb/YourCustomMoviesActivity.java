@@ -74,6 +74,8 @@ public class YourCustomMoviesActivity extends AppCompatActivity {
                 loadFragment(new LikedMoviesFragment());
             } else if (id == R.id.watchListMovies) {
                 loadFragment(new MoviesWatchListFragment());
+            } else if (id == R.id.upcomingMovies) {
+                loadFragment(new UpcomingMoviesFragment());
             } else if (id == R.id.userDetails) {
                 Intent intent = new Intent(this, UserDetailsActivity.class);
                 intent.putExtra("previousActivity", "AuthenticationActivity");

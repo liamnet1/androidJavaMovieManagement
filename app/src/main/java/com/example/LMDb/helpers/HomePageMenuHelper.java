@@ -151,4 +151,53 @@ public class HomePageMenuHelper {
         });
         popup.show();
     }
+
+    // Set up filters menu
+    public static void setupFilterMenu(AppCompatActivity activity, Menu menu) {
+        activity.getMenuInflater().inflate(R.menu.menu_filters, menu);
+        MenuItem filterItem = menu.findItem(R.id.action_filter_movies);
+        if (filterItem != null) {
+            filterItem.setVisible(true);
+            Drawable drawable = filterItem.getIcon();
+            if (drawable != null) {
+                drawable.setTint(ContextCompat.getColor(activity, android.R.color.white));
+            }
+        }
+    }
+
+    // Handles filter menu item selection
+    public static boolean handleFilterMenuItem(AppCompatActivity activity, MenuItem item) {
+        int itemId = item.getItemId();
+
+        if (itemId == R.id.filter_action || itemId == R.id.filter_drama ||
+                itemId == R.id.filter_comedy || itemId == R.id.filter_horror ||
+                itemId == R.id.filter_sci_fi || itemId == R.id.filter_thriller) {
+
+            Toast.makeText(activity, "Filtered by Genre", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else if (itemId == R.id.filter_popularity || itemId == R.id.filter_release_date ||
+                itemId == R.id.filter_vote_average) {
+
+            Toast.makeText(activity, "Sorted", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else if (itemId == R.id.filter_upcoming) {
+            Toast.makeText(activity, "Filtered Upcoming Movies", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else if (itemId == R.id.filter_18_plus || itemId == R.id.filter_14_plus ||
+                itemId == R.id.filter_rated_r || itemId == R.id.filter_adults_only) {
+
+            Toast.makeText(activity, "Filtered Age Limit", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else if (itemId == R.id.filter_7_plus) {
+            Toast.makeText(activity, "Filtered Age Limit", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 }
