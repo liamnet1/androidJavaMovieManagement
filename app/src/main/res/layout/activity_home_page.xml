@@ -95,12 +95,12 @@
             app:layout_constraintEnd_toEndOf="parent">
 
             <!-- Jump Backward 5 Pages -->
-            <Button
+            <ImageButton
                 android:id="@+id/btnPrevious5"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="45dp"
                 android:layout_weight="1"
-                android:text="-5"
+                android:background="@drawable/ic_minus_five_jump_logo"
                 android:backgroundTint="@color/lightGray"
                 android:elevation="4dp"
                 android:padding="8dp"/>
@@ -144,12 +144,12 @@
                 android:padding="8dp"/>
 
             <!-- Jump Forward 5 Pages -->
-            <Button
+            <ImageButton
                 android:id="@+id/btnNext5"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="45dp"
                 android:layout_weight="1"
-                android:text="+5"
+                android:background="@drawable/ic_plus_five_jump_logo"
                 android:backgroundTint="@color/lightGray"
                 android:elevation="4dp"
                 android:padding="8dp"/>

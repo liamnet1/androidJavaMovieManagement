@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,7 +38,8 @@ public class MoviesWatchListFragment extends Fragment implements MoviesAdapter.M
     private RecyclerView recyclerViewMovies;
     private MoviesAdapter moviesAdapter;
     private TextView tvPageNumber;
-    private Button btnNext, btnPrevious, btnNext5, btnPrevious5;
+    private Button btnNext, btnPrevious;
+    private ImageButton btnNext5, btnPrevious5;
 
     private EditText etSearch;
     private Button btnSearch;
